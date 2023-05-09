@@ -1,0 +1,100 @@
+/* 전체 폰트와 배경 색상 설정 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+/* 로고 스타일 */
+header img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* 네비게이션 메뉴 스타일 */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* 페이지 제목 스타일 */
+main h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* 콘텐츠 이미지 스타일 */
+main img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* 폼 스타일 */
+form {
+  margin: 0 auto;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 푸터 스타일 */
+footer {
+  background-color: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer p {
+  margin-top: 20px;
+}
